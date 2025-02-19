@@ -1,0 +1,46 @@
+.app-header {
+  background-color: $primary;
+  color: white;
+  padding: 1rem 0;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($primary, 10%);
+    }
+
+    &--button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: inherit;
+      font-family: inherit;
+    }
+  }
+}

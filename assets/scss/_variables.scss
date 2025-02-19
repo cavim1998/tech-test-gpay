@@ -1,0 +1,17 @@
+$primary: #FFE81F;
+$secondary: #6c757d;
+$dark: #121212;
+$light: #f8f9fa;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "dark": $dark,
+  "light": $light
+);
+
+$body-bg: $dark;
+$body-color: $light;
+
+$navbar-dark-color: $light;
+$navbar-dark-hover-color: $primary;

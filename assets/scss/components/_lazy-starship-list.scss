@@ -1,0 +1,15 @@
+.starships-list {
+  margin-top: 2rem;
+}
+
+.starships-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
